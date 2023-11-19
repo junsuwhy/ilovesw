@@ -194,7 +194,7 @@ input[type="range"]::-moz-range-thumb {
   height: 50px;
   width: 50px;
   background-color: transparent;
-  background-image: url("https://storage.googleapis.com/pw-stuff/thumbs-sprite.png");
+  background-image: url("dolphin.png");
   background-position: 0 0;
   background-size: cover;
   cursor: pointer;
@@ -206,9 +206,9 @@ input[type="range"]::-moz-range-thumb:active {
 input[type="range"]::-moz-range-track {
   width: 100%;
   height: 20px;
-  background: #eee;
+  background: linear-gradient(-90deg, #ffc0cb00, #ffc0cbff);
   border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  /* box-shadow: 2px 2px 4px rgba(0,0,0,0.4); */
   cursor: pointer;
 }
 input[type="range"]::-moz-range-progress {
@@ -237,9 +237,9 @@ input[type="range"]::-webkit-slider-thumb:active {
 input[type="range"]::-webkit-slider-runnable-track {
   width: 100%;
   height: 20px;
-  background: #eee;
+  background: linear-gradient(-90deg, #ffc0cb00, #ffc0cbff);
   border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  /* box-shadow: 2px 2px 4px rgba(0,0,0,0.4); */
   cursor: pointer;
   -webkit-appearance: none;
 }
@@ -251,7 +251,7 @@ input[type="range"]::-webkit-slider-runnable-track {
       const label = document.querySelector("label");
 
       input.addEventListener("input", event => {
-        if (input.value < 10) {
+        if (input.value < 3) {
           doChange();
         }
       });
@@ -267,20 +267,20 @@ input[type="range"]::-webkit-slider-runnable-track {
   </script>
   <div class="magic-canva">
     <span class="magic">我</span>們是恣意遨遊的海豚<br>
-    總<span class="magic">喜</span>愛潛藏在湛藍的背景下<br>
-    趁狂<span class="magic">歡</span>的奇蹟時刻到來<br>
+    總<span class="magic">喜</span>愛潛藏在湛藍的海洋下<br>
+    趁狂<span class="magic">歡</span>的日暮奇蹟時刻到來<br>
     展開了<span class="magic">你</span>所嚮往的未知探險<br>
   </div>
   <br>
   <div class="magic-canva">
-    <span class="magic">願</span>望在路途上一定都會實現<br>
-    心<span class="magic">意</span>就是觸發奇蹟的載體<br>
+    <span class="magic">願</span>望在路途上都會漸漸達成<br>
+    心<span class="magic">意</span>就是觸發那些奇蹟的載體<br>
     鼻尖<span class="magic">跟</span>鼻尖輕觸之際<br>
     你會與<span class="magic">我</span>相視而笑，我無法招架你的可愛<br>
     兩對眼神<span class="magic">交</span>換了不用明說的話語<br>
-    愛情趁機投<span class="magic">往</span>即將降臨的未來<br>
+    愛情趁機投<span class="magic">往</span>即將實現的未來<br>
     「這就是幸福<span class="magic">嗎</span>？」<br>
-    我想揮棒就會找到答案
+    我想用力揮棒就會找到答案吧
   </div>
 <div class="slide-container">
   <img src="dolphin.png" alt="" class="dolphin-img">
